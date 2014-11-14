@@ -1,8 +1,0 @@
-ros-indigo-twist-mux (0.0.1-0saucy) saucy; urgency=high
-
-  * Add twist multiplexer
-  * Contributors: Enrique Fernandez, Siegfried Gevatter, Paul Mathieu
-
- -- Enrique Fernandez <enrique.fernandez@pal-robotics.com>  Wed, 12 Nov 2014 23:00:00 -0000
-
-
