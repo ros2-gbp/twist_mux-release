@@ -1,0 +1,12 @@
+Source: ros-jade-twist-mux
+Section: misc
+Priority: extra
+Maintainer: Enrique Fernandez <efernandez@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-diagnostic-updater, ros-jade-geometry-msgs, ros-jade-roscpp, ros-jade-rospy, ros-jade-rostest, ros-jade-rostopic, ros-jade-std-msgs, ros-jade-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-twist-mux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-diagnostic-updater, ros-jade-geometry-msgs, ros-jade-roscpp, ros-jade-std-msgs, ros-jade-twist-mux-msgs, ros-jade-visualization-msgs
+Description: Twist multiplexer, which multiplex several velocity commands (topics) and allows to priorize or disable them (locks).
