@@ -1,3 +1,24 @@
+## twist_mux (jade) - 2.0.0-0
+
+The packages in the `twist_mux` repository were released into the `jade` distro by running `/usr/bin/bloom-release twist_mux --track jade --rosdistro jade` on `Fri, 22 May 2015 16:46:18 -0000`
+
+The `twist_mux` package was released.
+
+Version of package(s) in repository `twist_mux`:
+- upstream repository: https://github.com/ros-teleop/twist_mux.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.0.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## twist_mux (indigo) - 1.0.3-0
 
 The packages in the `twist_mux` repository were released into the `indigo` distro by running `/usr/bin/bloom-release twist_mux --track indigo --rosdistro indigo` on `Sat, 04 Apr 2015 23:39:11 -0000`
