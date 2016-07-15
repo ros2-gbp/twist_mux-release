@@ -1,0 +1,12 @@
+Source: ros-kinetic-twist-mux
+Section: misc
+Priority: extra
+Maintainer: Enrique Fernandez <efernandez@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-diagnostic-updater, ros-kinetic-geometry-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-rostopic, ros-kinetic-std-msgs, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-twist-mux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-diagnostic-updater, ros-kinetic-geometry-msgs, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-twist-mux-msgs, ros-kinetic-visualization-msgs
+Description: Twist multiplexer, which multiplex several velocity commands (topics) and allows to priorize or disable them (locks).
