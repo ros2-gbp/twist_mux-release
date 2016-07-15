@@ -1,3 +1,26 @@
+## twist_mux (kinetic) - 3.0.0-0
+
+The packages in the `twist_mux` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --ros-distro kinetic twist_mux` on `Fri, 15 Jul 2016 01:34:30 -0000`
+
+The `twist_mux` package was released.
+
+Version of package(s) in repository `twist_mux`:
+
+- upstream repository: https://github.com/ros-teleop/twist_mux.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `3.0.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## twist_mux (indigo) - 1.0.3-1
 
 The packages in the `twist_mux` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --ros-distro indigo twist_mux` on `Tue, 12 Jul 2016 14:09:44 -0000`
