@@ -1,0 +1,39 @@
+ros-indigo-twist-mux (1.0.4-0trusty) trusty; urgency=high
+
+  * Merge pull request #10 <https://github.com/ros-teleop/twist_mux/issues/10> from ros-teleop/fix_diagnostics
+    Fix diagnostics
+  * Check if status changed on update
+  * Add constness
+  * Remove old/deprecated main_loop_time and reading_age
+  * Add option to call diagnostics force_update()
+  * Remove old/deprecated window_size arg
+  * Merge pull request #6 <https://github.com/ros-teleop/twist_mux/issues/6> from artivis/SyntaxWarning
+    fix some SyntaxWarning
+  * fix queue_size SyntaxWarning
+  * Contributors: Bence Magyar, Enrique Fernandez, Enrique Fernández Perdomo, Jeremie Deray
+
+ -- Enrique Fernandez <efernandez@clearpathrobotics.com>  Tue, 20 Sep 2016 04:00:00 -0000
+
+ros-indigo-twist-mux (1.0.3-0trusty) trusty; urgency=high
+
+  * Update maintainer email
+  * Contributors: Enrique Fernandez
+
+ -- Enrique Fernandez <efernandez@clearpathrobotics.com>  Sat, 04 Apr 2015 04:00:00 -0000
+
+ros-indigo-twist-mux (1.0.2-0trusty) trusty; urgency=high
+
+  * Increase version to 1.0.1 for indigo release
+  * Add diagnostic_updater dependency
+  * Contributors: Enrique Fernández
+
+ -- Enrique Fernandez <enrique.fernandez@pal-robotics.com>  Fri, 14 Nov 2014 05:00:00 -0000
+
+ros-indigo-twist-mux (0.0.1-0trusty) trusty; urgency=high
+
+  * Add twist multiplexer
+  * Contributors: Enrique Fernandez, Siegfried Gevatter, Paul Mathieu
+
+ -- Enrique Fernandez <enrique.fernandez@pal-robotics.com>  Thu, 13 Nov 2014 05:00:00 -0000
+
+
