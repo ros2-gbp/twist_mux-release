@@ -1,3 +1,24 @@
+## twist_mux (melodic) - 3.1.0-0
+
+The packages in the `twist_mux` repository were released into the `melodic` distro by running `/usr/bin/bloom-release twist_mux --track melodic --rosdistro melodic --new-track` on `Tue, 26 Jun 2018 13:35:28 -0000`
+
+The `twist_mux` package was released.
+
+Version of package(s) in repository `twist_mux`:
+- upstream repository: https://github.com/ros-teleop/twist_mux.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `3.1.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## twist_mux (indigo) - 1.0.4-0
 
 The packages in the `twist_mux` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --ros-distro indigo twist_mux` on `Tue, 20 Sep 2016 16:28:31 -0000`
