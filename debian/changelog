@@ -1,0 +1,51 @@
+ros-melodic-twist-mux (3.1.0-1bionic) bionic; urgency=high
+
+
+
+ -- Enrique Fernandez <efernandez@clearpathrobotics.com>  Sun, 24 Jun 2018 22:00:00 -0000
+
+ros-melodic-twist-mux (3.0.0-1bionic) bionic; urgency=high
+
+  * Merge pull request #8 <https://github.com/ros-teleop/twist_mux/issues/8> from ros-teleop/update_jade_from_indigo_devel
+    fix queue_size SyntaxWarning
+  * fix queue_size SyntaxWarning
+  * Update README.md
+    Add documentation link and build status.
+  * Contributors: Enrique Fernández Perdomo, Jeremie Deray
+
+ -- Enrique Fernandez <efernandez@clearpathrobotics.com>  Mon, 11 Jul 2016 22:00:00 -0000
+
+ros-melodic-twist-mux (2.0.0-1bionic) bionic; urgency=high
+
+  * Add rosindex tags
+    http://rosindex.github.io/contribute/metadata/#metadata-elements
+  * Add missed test dependencies on rospy, rostopic
+  * Add .gitignore for *.pyc in test
+  * Fix rostest dependency
+  * Contributors: Enrique Fernandez
+
+ -- Enrique Fernandez <efernandez@clearpathrobotics.com>  Thu, 21 May 2015 22:00:00 -0000
+
+ros-melodic-twist-mux (1.0.3-1bionic) bionic; urgency=high
+
+  * Update maintainer email
+  * Contributors: Enrique Fernandez
+
+ -- Enrique Fernandez <efernandez@clearpathrobotics.com>  Fri, 03 Apr 2015 22:00:00 -0000
+
+ros-melodic-twist-mux (1.0.2-1bionic) bionic; urgency=high
+
+  * Increase version to 1.0.1 for indigo release
+  * Add diagnostic_updater dependency
+  * Contributors: Enrique Fernández
+
+ -- Enrique Fernandez <efernandez@clearpathrobotics.com>  Thu, 13 Nov 2014 23:00:00 -0000
+
+ros-melodic-twist-mux (0.0.1-1bionic) bionic; urgency=high
+
+  * Add twist multiplexer
+  * Contributors: Enrique Fernandez, Siegfried Gevatter, Paul Mathieu
+
+ -- Enrique Fernandez <efernandez@clearpathrobotics.com>  Wed, 12 Nov 2014 23:00:00 -0000
+
+
