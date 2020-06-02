@@ -1,0 +1,12 @@
+Source: ros-noetic-twist-mux
+Section: misc
+Priority: optional
+Maintainer: Enrique Fernandez <efernandez@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-diagnostic-updater, ros-noetic-geometry-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-rostest, ros-noetic-rostopic, ros-noetic-std-msgs, ros-noetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-twist-mux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diagnostic-updater, ros-noetic-geometry-msgs, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-twist-mux-msgs, ros-noetic-visualization-msgs
+Description: Twist multiplexer, which multiplex several velocity commands (topics) and allows to priorize or disable them (locks).
