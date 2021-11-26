@@ -1,0 +1,12 @@
+Source: ros-galactic-twist-mux
+Section: misc
+Priority: optional
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-cmake-xmllint, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-diagnostic-updater, ros-galactic-geometry-msgs, ros-galactic-launch, ros-galactic-launch-testing, ros-galactic-launch-testing-ament-cmake, ros-galactic-launch-testing-ros, ros-galactic-rclcpp, ros-galactic-std-msgs, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-twist-mux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-diagnostic-updater, ros-galactic-geometry-msgs, ros-galactic-rclcpp, ros-galactic-std-msgs, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Description: Twist multiplexer, which multiplex several velocity commands (topics) and allows to priorize or disable them (locks).
