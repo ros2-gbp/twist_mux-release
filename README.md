@@ -1,3 +1,26 @@
+## twist_mux (galactic) - 4.1.0-1
+
+The packages in the `twist_mux` repository were released into the `galactic` distro by running `/usr/local/bin/bloom-release --track galactic --rosdistro galactic twist_mux --edit` on `Fri, 26 Nov 2021 07:55:42 -0000`
+
+The `twist_mux` package was released.
+
+Version of package(s) in repository `twist_mux`:
+
+- upstream repository: https://github.com/ros-teleop/twist_mux.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `4.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## twist_mux (rolling) - 4.0.1-1
 
 The packages in the `twist_mux` repository were released into the `rolling` distro by running `/usr/local/bin/bloom-release --track rolling --rosdistro rolling twist_mux` on `Thu, 17 Jun 2021 20:44:53 -0000`
