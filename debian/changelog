@@ -1,0 +1,66 @@
+ros-iron-twist-mux (4.1.0-4bullseye) bullseye; urgency=high
+
+  * Cleanup parameter warnings & cpplint (#32 <https://github.com/ros-teleop/twist_mux/issues/32>)
+  * Update maintainer and license tag
+  * Contributors: Stephen Street, Bence Magyar
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Thu, 25 Nov 2021 16:00:00 -0000
+
+ros-iron-twist-mux (4.0.0-4bullseye) bullseye; urgency=high
+
+  * Foxy migration (#25 <https://github.com/ros-teleop/twist_mux/issues/25>)
+  * Contributors: Victor Lopez
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Tue, 15 Jun 2021 16:00:00 -0000
+
+ros-iron-twist-mux (3.1.0-4bullseye) bullseye; urgency=high
+
+
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Sun, 24 Jun 2018 16:00:00 -0000
+
+ros-iron-twist-mux (3.0.0-4bullseye) bullseye; urgency=high
+
+  * Merge pull request #8 <https://github.com/ros-teleop/twist_mux/issues/8> from ros-teleop/update_jade_from_indigo_devel
+    fix queue_size SyntaxWarning
+  * fix queue_size SyntaxWarning
+  * Update README.md
+    Add documentation link and build status.
+  * Contributors: Enrique Fernández Perdomo, Jeremie Deray
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Mon, 11 Jul 2016 16:00:00 -0000
+
+ros-iron-twist-mux (2.0.0-4bullseye) bullseye; urgency=high
+
+  * Add rosindex tags
+    http://rosindex.github.io/contribute/metadata/#metadata-elements
+  * Add missed test dependencies on rospy, rostopic
+  * Add .gitignore for *.pyc in test
+  * Fix rostest dependency
+  * Contributors: Enrique Fernandez
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Thu, 21 May 2015 16:00:00 -0000
+
+ros-iron-twist-mux (1.0.3-4bullseye) bullseye; urgency=high
+
+  * Update maintainer email
+  * Contributors: Enrique Fernandez
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Fri, 03 Apr 2015 16:00:00 -0000
+
+ros-iron-twist-mux (1.0.2-4bullseye) bullseye; urgency=high
+
+  * Increase version to 1.0.1 for indigo release
+  * Add diagnostic_updater dependency
+  * Contributors: Enrique Fernández
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Thu, 13 Nov 2014 16:00:00 -0000
+
+ros-iron-twist-mux (0.0.1-4bullseye) bullseye; urgency=high
+
+  * Add twist multiplexer
+  * Contributors: Enrique Fernandez, Siegfried Gevatter, Paul Mathieu
+
+ -- Bence Magyar <bence.magyar.robotics@gmail.com>  Wed, 12 Nov 2014 16:00:00 -0000
+
+
