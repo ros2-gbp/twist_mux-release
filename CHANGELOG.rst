@@ -2,6 +2,13 @@
 Changelog for package twist_mux
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.2.0 (2023-09-18)
+------------------
+* Joystick relay for ROS 2 (`#43 <https://github.com/ros-teleop/twist_mux/issues/43>`_)
+* Add CI (`#47 <https://github.com/ros-teleop/twist_mux/issues/47>`_)
+* Clean up parameter warnings for Rolling (`#28 <https://github.com/ros-teleop/twist_mux/issues/28>`_)
+* Contributors: Bence Magyar, Noel Jiménez García, Stephen Street
+
 4.1.0 (2021-11-26)
 ------------------
 * Cleanup parameter warnings & cpplint (`#32 <https://github.com/ros-teleop/twist_mux/issues/32>`_)
