@@ -138,12 +138,12 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: galactic
+    devel_branch: rolling
     last_version: 4.1.0
     name: upstream
     patches: null
     release_inc: '4'
-    release_repo_url: null
+    release_repo_url: https://github.com/ros2-gbp/twist_mux-release.git
     release_tag: :{version}
     ros_distro: iron
     vcs_type: git
