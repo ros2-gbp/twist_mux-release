@@ -1,0 +1,12 @@
+Source: ros-jazzy-twist-mux
+Section: misc
+Priority: optional
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-copyright <!nocheck>, ament-cmake-cppcheck <!nocheck>, ament-cmake-cpplint <!nocheck>, ament-cmake-flake8 <!nocheck>, ament-cmake-lint-cmake <!nocheck>, ament-cmake-pep257 <!nocheck>, ament-cmake-uncrustify <!nocheck>, ament-cmake-xmllint <!nocheck>, ament-lint <!nocheck>, libdiagnostic-updater-dev, libgeometry-msgs-dev, libstd-msgs-dev, libvisualization-msgs-dev, python3-diagnostic-updater, python3-geometry-msgs, python3-std-msgs, python3-visualization-msgs, ros-geometry-msgs, ros-jazzy-launch <!nocheck>, ros-jazzy-launch-testing <!nocheck>, ros-jazzy-launch-testing-ament-cmake <!nocheck>, ros-jazzy-launch-testing-ros <!nocheck>, ros-jazzy-rclcpp, ros-std-msgs, ros-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-twist-mux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdiagnostic-updater-dev, libgeometry-msgs-dev, libstd-msgs-dev, libvisualization-msgs-dev, python3-diagnostic-updater, python3-geometry-msgs, python3-std-msgs, python3-visualization-msgs, ros-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-twist-mux-msgs, ros-std-msgs, ros-visualization-msgs, ros-jazzy-ros-workspace
+Description: Twist multiplexer, which multiplex several velocity commands (topics) and allows to priorize or disable them (locks).
