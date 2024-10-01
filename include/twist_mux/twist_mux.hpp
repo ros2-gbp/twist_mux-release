@@ -38,6 +38,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/bool.hpp>
 #include <geometry_msgs/msg/twist.hpp>
+#include <geometry_msgs/msg/twist_stamped.hpp>
 
 #include <list>
 #include <memory>
@@ -51,6 +52,7 @@ namespace twist_mux
 class TwistMuxDiagnostics;
 struct TwistMuxDiagnosticsStatus;
 class VelocityTopicHandle;
+class VelocityStampedTopicHandle;
 class LockTopicHandle;
 
 /**
@@ -64,6 +66,7 @@ public:
   using handle_container = std::list<T>;
 
   using velocity_topic_container = handle_container<VelocityTopicHandle>;
+  using velocity_stamped_topic_container = handle_container<VelocityStampedTopicHandle>;
   using lock_topic_container = handle_container<LockTopicHandle>;
 
   TwistMux();
@@ -73,7 +76,11 @@ public:
 
   bool hasPriority(const VelocityTopicHandle & twist);
 
+  bool hasPriorityStamped(const VelocityStampedTopicHandle & twist);
+
   void publishTwist(const geometry_msgs::msg::Twist::ConstSharedPtr & msg);
+
+  void publishTwistStamped(const geometry_msgs::msg::TwistStamped::ConstSharedPtr & msg);
 
   void updateDiagnostics();
 
@@ -92,11 +99,14 @@ protected:
    * must reserve the number of handles initially.
    */
   std::shared_ptr<velocity_topic_container> velocity_hs_;
+  std::shared_ptr<velocity_stamped_topic_container> velocity_stamped_hs_;
   std::shared_ptr<lock_topic_container> lock_hs_;
 
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_pub_;
+  rclcpp::Publisher<geometry_msgs::msg::TwistStamped>::SharedPtr cmd_pub_stamped_;
 
   geometry_msgs::msg::Twist last_cmd_;
+  geometry_msgs::msg::TwistStamped last_cmd_stamped_;
 
   template<typename T>
   void getTopicHandles(const std::string & param_name, handle_container<T> & topic_hs);
