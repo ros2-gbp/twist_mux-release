@@ -2,6 +2,11 @@
 Changelog for package twist_mux
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.4.0 (2024-10-01)
+------------------
+* TwistStamped Support (`#50 <https://github.com/ros-teleop/twist_mux/issues/50>`_)
+* Contributors: luis-camero
+
 4.3.0 (2023-11-11)
 ------------------
 * Add use_sim_time param for joystick_relay (`#48 <https://github.com/ros-teleop/twist_mux/issues/48>`_)
