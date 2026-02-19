@@ -78,9 +78,12 @@ TwistMux::TwistMux()
 void TwistMux::init()
 {
   // Get use stamped parameter
-  bool use_stamped;
+  bool use_stamped = true;
+
   auto nh = std::shared_ptr<rclcpp::Node>(this, [](rclcpp::Node *) {});
-  fetch_param(nh, "use_stamped", use_stamped);
+
+  if (!nh->get_parameter("use_stamped", use_stamped))
+    RCLCPP_INFO(nh->get_logger(), "\"use_stamped\" is not declared as parameter, defaulting to \"true\".");
 
   /// Get topics and locks:
   if(use_stamped)
